@@ -1,6 +1,11 @@
 import DiffPatcher from './diffpatcher';
 export DiffPatcher from './diffpatcher';
 
+export Context from './contexts/context';
+export DiffContext from './contexts/diff';
+export PatchContext from './contexts/patch';
+export ReverseContext from './contexts/reverse';
+
 export * as formatters from './formatters/index';
 
 export * as console from './formatters/console';
